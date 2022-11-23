@@ -4,8 +4,8 @@ $(document).ready(function(){
      $(".content-con").animate({
         left: '250px',
     opacity: '80px',
-    height: '0px',
-    width: '0px'
+    height: '10px',
+    width: '10px'
      });
     });
     $(".btn-con").click(function(){
@@ -132,5 +132,10 @@ $(document).ready(function(){
       txt += "Outer width of div: " + $(".dimension-con").outerWidth() + "</br>";
       txt += "Outer height of div: " + $(".dimension-con").outerHeight();
       $(".dimension-con").html(txt);
+    });
+  });
+  $(document).click(function(){
+    $(".wrapper-btn").click(function(){
+      $("#wrapper").toggle();
     });
   });

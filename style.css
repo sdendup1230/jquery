@@ -1,8 +1,11 @@
 #wrapper{
-    width: 800px;
+    width: 650px;
     height: auto;
     background-color: beige;
     padding: 30px;
+    margin-left: 200px;
+
+    
 }
 .head-con{
     width: 600px;
@@ -201,4 +204,11 @@ img{
     border: none;
     padding: 5px 30px 5px 30px;
     border-radius: 10px;
+}
+.wrapper-btn{
+    background-color:blue;
+    border: none;
+    padding: 10px 100px 10px 100px;
+    border-radius: 20px;
+    margin-left: 400px;
 }
