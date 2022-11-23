@@ -59,7 +59,7 @@ padding: 30px;
     background-color: dodgerblue;
     color: #ffffff;
 }
-img{
+.content-con img{
     width: 300px;
     height: 400px;
     float: right;
@@ -211,4 +211,11 @@ img{
     padding: 10px 100px 10px 100px;
     border-radius: 20px;
     margin-left: 400px;
+}
+/* given animation */
+#animate{
+    position:relative;
+    /* width: 100px;
+    height: 100px; */
+    
 }

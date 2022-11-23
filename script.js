@@ -43,6 +43,17 @@ $(document).ready(function(){
         $(".log-con").hide();
     });
 });
+
+// Animation-----
+$(document).ready(function(){
+  $(".infor").click(function(){
+    $("#animate").animate({left: '200px'});
+  });
+  $(".cont").click(function(){
+    $("#animate").animate({left: '-1.5px'});
+  });
+});
+
 // for stopping
 $(document).ready(function(){
     $(".stop-btn").click(function(){
