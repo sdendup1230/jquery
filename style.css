@@ -1,0 +1,204 @@
+#wrapper{
+    width: 800px;
+    height: auto;
+    background-color: beige;
+    padding: 30px;
+}
+.head-con{
+    width: 600px;
+    height: 100px;
+    background-image: linear-gradient(to bottom right, yellow, orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    
+}
+.head-con ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.head-con ul li{
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+}
+li:hover{
+    border: solid 1px #ccc;
+    background-color: dodgerblue;
+    color: #ffffff;
+}
+.content-con{
+    width: 600px;
+    height: 400px;
+    background-color: burlywood;
+    
+}
+.hero{
+    text-align: center;
+width: 300px;
+height: 400px;
+background-image: linear-gradient(to bottom right, aqua, lightblue);
+padding: 30px;
+}
+.hero a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 30px 5px 30px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+}
+.hero a:hover{
+    background-color: dodgerblue;
+    color: #ffffff;
+}
+img{
+    width: 300px;
+    height: 400px;
+    float: right;
+}
+.log-con{
+    height: 150px;
+    width: 600px;
+    background-image: linear-gradient(to bottom right, yellow, orange);
+    padding: 30px;
+    text-align: center;
+}
+.log-btn button{
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    padding: 10px 40px 10px 40px;
+}
+.log-btn button:hover{
+    background-color: green;
+    color: #ffffff;
+}
+.min-btn{
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 200px;
+}
+.min-btn button{
+    border: none;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 5px 40px 5px 40px;
+    color: #ffffff;
+}
+.min-btn button:hover{
+    background-color: dodgerblue;
+    color: #ffffff;
+}
+.toggle-con{
+    width: 600px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.toggle-con button{
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 30px 5px 30px;
+}
+.slide-con{
+    width: 600px;
+    height: 100px;
+    background-color: chocolate;
+    text-align: center;
+    color: #ffffff;
+}
+.slide-con button{
+    background-color: aqua;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+}
+.fade-con{
+    width: 600px;
+    height: 100px;
+    background-color: crimson;
+    text-align: center;
+    color: #ffffff;
+}
+.fade-con button{
+    background-color: aqua;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+}
+.css-classes{
+    width: 600px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    color: black;
+}
+.css-classes button{
+    background-color: green;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+}
+.set-con{
+    width: 600px;
+    height: 100px;
+    background-color: darkorange;
+    text-align: center;
+    color: black;
+}
+.set-con button{
+    background-color: chartreuse;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+}
+.remove-con{
+    width: 600px;
+    height: 100px;
+    background-color: deeppink;
+    text-align: center;
+    color: black;
+}
+.remove-con button{
+    background-color:fuchsia;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+}
+.add-con{
+    width: 600px;
+    height: 100px;
+    background-color:gold;
+    text-align: center;
+    color: black;
+}
+.add-con button{
+    background-color:maroon;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+}
+.dimension-con{
+    width: 600px;
+    height: 100px;
+    background-color:coral;
+    text-align: center;
+    color: black;
+}
+.dimension-con button{
+    background-color:blue;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+}
